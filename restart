@@ -1,0 +1,6 @@
+killall -9 nginx
+export MAX_PEER_FAILED=123
+cd /data/eryong.kong/bin/nginx/sbin
+./nginx -c /data/eryong.kong/bin/test/conf/10_1.conf
+cd -
+
